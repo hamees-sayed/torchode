@@ -18,3 +18,4 @@ from .terms import ODETerm
 register_method("heun", Heun)
 register_method("dopri5", Dopri5)
 register_method("tsit5", Tsit5)
+register_method("euler", Euler)
